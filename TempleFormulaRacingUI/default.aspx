@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TempleFormulaRacing.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="TempleFormulaRacingUI._default1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="TempleFormulaRacing.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="TempleFormulaRacingUI._default1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
