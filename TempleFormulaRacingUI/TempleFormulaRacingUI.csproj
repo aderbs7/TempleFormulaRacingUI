@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+Cost_Report
     <Content Include="brakes.aspx" />
     <Content Include="default.aspx" />
     <Content Include="report.aspx" />
@@ -80,6 +81,20 @@
     </Compile>
     <Compile Include="brakes.aspx.designer.cs">
       <DependentUpon>brakes.aspx</DependentUpon>
+
+    <Content Include="Admin.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="TeamManagement.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      master
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -89,6 +104,7 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+Cost_Report
     <Compile Include="report.aspx.cs">
       <DependentUpon>report.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,6 +118,14 @@
     </Compile>
     <Compile Include="systems.aspx.designer.cs">
       <DependentUpon>systems.aspx</DependentUpon>
+
+    <Compile Include="TeamManagement.aspx.cs">
+      <DependentUpon>TeamManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamManagement.aspx.designer.cs">
+      <DependentUpon>TeamManagement.aspx</DependentUpon>
+  master
     </Compile>
     <Compile Include="TempleFormulaRacing.Master.cs">
       <DependentUpon>TempleFormulaRacing.Master</DependentUpon>
@@ -110,10 +134,18 @@
     <Compile Include="TempleFormulaRacing.Master.designer.cs">
       <DependentUpon>TempleFormulaRacing.Master</DependentUpon>
     </Compile>
+    <Compile Include="TempleFormulaRacingAdmin.Master.cs">
+      <DependentUpon>TempleFormulaRacingAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TempleFormulaRacingAdmin.Master.designer.cs">
+      <DependentUpon>TempleFormulaRacingAdmin.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="TempleFormulaRacing.Master" />
+    <Content Include="TempleFormulaRacingAdmin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

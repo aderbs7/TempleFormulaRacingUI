@@ -10,7 +10,7 @@
 namespace TempleFormulaRacingUI {
     
     
-    public partial class _default1 {
+    public partial class Admin {
         
         /// <summary>
         /// ListBox1 control.
