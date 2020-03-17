@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Admin.aspx" />
     <Content Include="default.aspx" />
     <Content Include="TeamManagement.aspx" />
@@ -79,6 +80,21 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+=======
+    <Content Include="brakes.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="report.aspx" />
+    <Content Include="systems.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="brakes.aspx.cs">
+      <DependentUpon>brakes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="brakes.aspx.designer.cs">
+      <DependentUpon>brakes.aspx</DependentUpon>
+>>>>>>> 184094fe35e9d968bd04f1f0635069745f537e83
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -88,12 +104,28 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="TeamManagement.aspx.cs">
       <DependentUpon>TeamManagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TeamManagement.aspx.designer.cs">
       <DependentUpon>TeamManagement.aspx</DependentUpon>
+=======
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="systems.aspx.cs">
+      <DependentUpon>systems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systems.aspx.designer.cs">
+      <DependentUpon>systems.aspx</DependentUpon>
+>>>>>>> 184094fe35e9d968bd04f1f0635069745f537e83
     </Compile>
     <Compile Include="TempleFormulaRacing.Master.cs">
       <DependentUpon>TempleFormulaRacing.Master</DependentUpon>
