@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TempleFormulaRacing.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="TempleFormulaRacingUI._default1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TempleFormulaRacingAdmin.Master" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="TempleFormulaRacingUI.Admin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -73,5 +73,4 @@
             </div><!--END COL2-->
         </div><!--END ROW2-->
     </div>
-   
 </asp:Content>
